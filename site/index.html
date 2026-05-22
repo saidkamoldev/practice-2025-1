@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Проектная практика — Группа 251-335</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">251-335</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="about.html">О проекте</a></li>
+    <li><a href="members.html">Участники</a></li>
+    <li><a href="journal.html">Журнал</a></li>
+    <li><a href="resources.html">Ресурсы</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Проектная практика · 2025–2026</div>
+    <h1>Изучение <span class="grad">русского языка</span><br/>как иностранного</h1>
+    <p>Образовательная платформа нового поколения для иностранных студентов. Backend-архитектура, интерактивный интерфейс и программа поддержки Buddy.</p>
+    <div class="hero-badges">
+      <span class="badge accent">Московский Политех</span>
+      <span class="badge accent2">Группа 251-335</span>
+      <span class="badge accent3">72 часа</span>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM INTRO -->
+<section style="background:var(--bg2); padding:70px 60px;">
+  <div class="container">
+    <div class="section-label">Команда</div>
+    <h2 class="section-title">Авторы проекта</h2>
+    <p class="section-desc">Студенты 1 курса факультета информационных технологий</p>
+    <div class="members-grid">
+      <div class="member-card">
+        <div class="member-avatar">🖥️</div>
+        <h3>Журакулов Саидкамол Улмасжон угли</h3>
+        <div class="member-role">Backend Developer &amp; DevOps Engineer</div>
+        <p>Группа 251-335 · Московский Политех<br/>Проект: Изучение русского языка как иностранного</p>
+        <div class="member-skills">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">FastAPI</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Linux</span>
+        </div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">🎨</div>
+        <h3>Аширматов Абдукодир Хотамович</h3>
+        <div class="member-role">Frontend Developer</div>
+        <p>Группа 251-335 · Московский Политех<br/>Проект: Buddy — программа поддержки иностранных студентов</p>
+        <div class="member-skills">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">REST API</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section style="background:var(--bg); padding:60px;">
+  <div class="container">
+    <div class="about-stats" style="grid-template-columns:repeat(4,1fr);">
+      <div class="stat-box"><span class="num">72</span><span class="label">академических часа</span></div>
+      <div class="stat-box"><span class="num">2</span><span class="label">участника команды</span></div>
+      <div class="stat-box"><span class="num">3</span><span class="label">проекта выполнено</span></div>
+      <div class="stat-box"><span class="num">2</span><span class="label">сертификата STARTUP HUB</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section style="background:var(--bg2);">
+  <div class="container">
+    <div class="section-label">Направления работы</div>
+    <h2 class="section-title">Наши проекты</h2>
+    <p class="section-desc">Три направления, охватывающих полный стек разработки образовательной платформы</p>
+
+    <div class="project-card featured" style="margin-bottom:25px;">
+      <div>
+        <div class="project-icon">🎓</div>
+        <h3>Изучение русского языка как иностранного</h3>
+        <p>Образовательная веб-платформа для иностранных студентов. Backend спроектирован и реализован <strong style="color:var(--text);">Журакуловым С.У.</strong> — REST API, PostgreSQL, Docker, JWT-аутентификация, деплой на Linux VPS.</p>
+        <div class="project-tags">
+          <span class="ptag">FastAPI</span><span class="ptag">PostgreSQL</span>
+          <span class="ptag">Docker</span><span class="ptag">Nginx</span><span class="ptag">JWT</span>
+        </div>
+      </div>
+      <div>
+        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:20px;font-family:'Courier New',monospace;font-size:0.8rem;display:flex;flex-direction:column;gap:8px;">
+          <div style="background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.2);border-radius:7px;padding:9px 14px;color:#00d4ff;">🌐 React SPA (Frontend)</div>
+          <div style="text-align:center;color:var(--muted);font-size:0.65rem;">↕ HTTP/JSON</div>
+          <div style="background:rgba(124,58,255,0.1);border:1px solid rgba(124,58,255,0.25);border-radius:7px;padding:9px 14px;color:#a78bff;">⚡ FastAPI (Backend)</div>
+          <div style="text-align:center;color:var(--muted);font-size:0.65rem;">↕ SQLAlchemy ORM</div>
+          <div style="background:rgba(255,60,95,0.08);border:1px solid rgba(255,60,95,0.2);border-radius:7px;padding:9px 14px;color:#ff8099;">🗄️ PostgreSQL</div>
+          <div style="text-align:center;color:var(--muted);font-size:0.65rem;">↕ Docker Compose</div>
+          <div style="background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:7px;padding:9px 14px;color:var(--muted);">🐧 Linux VPS + Nginx</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card" style="border-color:rgba(0,212,255,0.15);">
+        <div class="project-icon">🤝</div>
+        <h3>Buddy — программа поддержки иностранных студентов</h3>
+        <p>Frontend реализован <strong style="color:var(--text);">Аширматовым А.Х.</strong> — компоненты React, адаптивный интерфейс, подбор пар студент–наставник, чат, интеграция с API.</p>
+        <div class="project-tags" style="margin-top:14px;">
+          <span class="ptag">React</span><span class="ptag">TypeScript</span>
+          <span class="ptag">UI/UX</span><span class="ptag">Figma</span>
+        </div>
+        <div style="margin-top:18px;border-radius:10px;overflow:hidden;border:1px solid var(--border);">
+          <img src="img/buddy_screenshot.png" alt="Buddy platform screenshot" style="width:100%;display:block;opacity:0.9;" />
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">⌨️</div>
+        <h3>Вариативная часть: C Text Editor (Kilo)</h3>
+        <p>Реализован совместно — текстовый редактор на языке C по проекту Kilo. Raw-режим терминала, подсветка синтаксиса, поиск, сохранение файлов.</p>
+        <div class="project-tags" style="margin-top:14px;">
+          <span class="ptag">C99</span><span class="ptag">POSIX API</span>
+          <span class="ptag">VT100</span><span class="ptag">termios.h</span>
+        </div>
+        <div style="margin-top:20px;background:var(--bg3);border:1px solid var(--border);border-radius:10px;padding:18px;font-family:'Courier New',monospace;font-size:0.78rem;color:#00d4ff;line-height:1.8;">
+          <span style="color:var(--muted);">// kilo.c — ~1000 строк кода</span><br/>
+          <span style="color:#a78bff;">void</span> editorRefreshScreen();<br/>
+          <span style="color:#a78bff;">void</span> editorMoveCursor(<span style="color:#ff8099;">int</span> key);<br/>
+          <span style="color:#a78bff;">void</span> editorOpen(<span style="color:#ff8099;">char</span> *filename);<br/>
+          <span style="color:#a78bff;">void</span> editorFind();<br/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STARTUP HUB -->
+<section style="background:var(--bg);">
+  <div class="container">
+    <div class="section-label">Партнёрская организация</div>
+    <h2 class="section-title">STARTUP HUB</h2>
+    <p class="section-desc">15 мая 2026 · Московский Политех · ООО «Деловая сфера»</p>
+
+    <div class="event-card">
+      <div>
+        <div class="event-badge">🚀 Пройдено обучение</div>
+        <h3>Образовательная программа по предпринимательству</h3>
+        <p>
+          <strong style="color:var(--text);">Журакулов Саидкамол</strong> и
+          <strong style="color:var(--text);">Аширматов Абдукодир</strong> приняли участие
+          в 6 тренингах предпринимательских компетенций: генерация идей, формирование команды стартапа,
+          разработка MVP, бизнес-модель, питч перед инвесторами. Получили сертификаты участников.
+        </p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;">
+          <a href="img/cert1.pdf" target="_blank" class="cert-link">📄 Сертификат — Журакулов С.У.</a>
+          <a href="img/cert2.pdf" target="_blank" class="cert-link">📄 Сертификат — Аширматов А.Х.</a>
+        </div>
+      </div>
+      <div class="event-meta">
+        <div class="meta-item"><div class="mi-label">Дата</div><div class="mi-val">15.05.2026</div></div>
+        <div class="meta-item"><div class="mi-label">Место</div><div class="mi-val">Московский Политех, ПР-1211</div></div>
+        <div class="meta-item"><div class="mi-label">Организатор</div><div class="mi-val">ООО «Деловая сфера»</div></div>
+        <div class="meta-item"><div class="mi-label">Участники</div><div class="mi-val">Журакулов С.У.<br/>Аширматов А.Х.</div></div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:30px;">
+      <div style="border-radius:14px;overflow:hidden;border:1px solid var(--border);">
+        <img src="img/startup1.png" alt="Участники STARTUP HUB с сертификатами" style="width:100%;display:block;aspect-ratio:16/10;object-fit:cover;" />
+        <div style="padding:12px 16px;background:var(--card);font-size:0.78rem;color:var(--muted);">Участники программы с сертификатами</div>
+      </div>
+      <div style="border-radius:14px;overflow:hidden;border:1px solid var(--border);">
+        <img src="img/startup2.png" alt="Конвейер бизнес-идей" style="width:100%;display:block;aspect-ratio:16/10;object-fit:cover;" />
+        <div style="padding:12px 16px;background:var(--card);font-size:0.78rem;color:var(--muted);">Конвейер бизнес-идей — защита идеи проекта</div>
+      </div>
+      <div style="border-radius:14px;overflow:hidden;border:1px solid var(--border);">
+        <img src="img/startup3.png" alt="Команда стартапа" style="width:100%;display:block;aspect-ratio:16/10;object-fit:cover;" />
+        <div style="padding:12px 16px;background:var(--card);font-size:0.78rem;color:var(--muted);">Тренинг «Команда стартапа» — распределение ролей</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">251-335</div>
+  <p>
+    <strong>Журакулов Саидкамол Улмасжон угли</strong> &amp;
+    <strong>Аширматов Абдукодир Хотамович</strong><br/>
+    Московский Политехнический Университет · Факультет информационных технологий · 2025–2026
+  </p>
+</footer>
+
+</body>
+</html>

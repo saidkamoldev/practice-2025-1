@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>О проекте — Группа 251-335</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">251-335</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="about.html">О проекте</a></li>
+    <li><a href="members.html">Участники</a></li>
+    <li><a href="journal.html">Журнал</a></li>
+    <li><a href="resources.html">Ресурсы</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="hero" style="min-height: 50vh; padding-top: 140px; padding-bottom: 60px;">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Описание</div>
+    <h1>О <span class="grad">проекте</span></h1>
+    <p>Полная информация о целях, задачах и архитектуре наших разработок</p>
+  </div>
+</section>
+
+<!-- PROJECT 1 -->
+<section style="background: var(--bg2);">
+  <div class="container">
+    <div class="section-label">Проект 1</div>
+    <h2 class="section-title">Изучение русского языка<br/>как иностранного</h2>
+    <p class="section-desc">Куратор: Юрченко А.В.</p>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          <strong>Цель проекта</strong> — создание цифровой образовательной платформы,
+          помогающей иностранным студентам эффективно изучать русский язык в интерактивном формате.
+        </p>
+        <p>
+          Платформа предоставляет структурированные учебные материалы,
+          упражнения на грамматику и лексику, а также систему отслеживания прогресса обучающихся.
+        </p>
+        <p>
+          <strong>Роль Журакулова С.У.</strong> — Backend-разработчик и DevOps-инженер.
+          Спроектирована и реализована полная серверная архитектура:
+          REST API на FastAPI, база данных PostgreSQL, Docker-контейнеризация,
+          система аутентификации JWT, деплой на Linux-сервере.
+        </p>
+        <p>
+          <strong>Роль Аширматова А.Х.</strong> — Frontend-разработчик.
+          Реализован пользовательский интерфейс платформы: компоненты React,
+          адаптивная вёрстка, интеграция с API, UX-логика учебного процесса.
+        </p>
+        <div class="tech-list" style="margin-top: 24px;">
+          <span class="tech-tag">Python 3.11</span>
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">SQLAlchemy</span>
+          <span class="tech-tag">Docker</span>
+          <span class="tech-tag">JWT Auth</span>
+          <span class="tech-tag">React 18</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Axios</span>
+          <span class="tech-tag">Nginx</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="about-stats">
+          <div class="stat-box">
+            <span class="num">REST</span>
+            <span class="label">API архитектура</span>
+          </div>
+          <div class="stat-box">
+            <span class="num">JWT</span>
+            <span class="label">Аутентификация</span>
+          </div>
+          <div class="stat-box">
+            <span class="num">CI/CD</span>
+            <span class="label">Автодеплой</span>
+          </div>
+          <div class="stat-box">
+            <span class="num">SPA</span>
+            <span class="label">Frontend React</span>
+          </div>
+        </div>
+
+        <!-- Architecture diagram -->
+        <div style="margin-top: 25px; background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 28px;">
+          <div style="font-family: 'Unbounded', sans-serif; font-size: 0.85rem; font-weight: 700; margin-bottom: 18px; color: var(--muted); letter-spacing: 0.05em;">АРХИТЕКТУРА</div>
+          <div style="display: flex; flex-direction: column; gap: 10px; font-size: 0.85rem; font-family: 'Courier New', monospace;">
+            <div style="background: rgba(0,212,255,0.08); border: 1px solid rgba(0,212,255,0.2); border-radius: 8px; padding: 10px 16px; color: #00d4ff;">
+              🌐 React SPA (Frontend)
+            </div>
+            <div style="text-align: center; color: var(--muted); font-size: 0.7rem;">↕ HTTP/JSON</div>
+            <div style="background: rgba(124,58,255,0.1); border: 1px solid rgba(124,58,255,0.25); border-radius: 8px; padding: 10px 16px; color: #a78bff;">
+              ⚡ FastAPI (Backend)
+            </div>
+            <div style="text-align: center; color: var(--muted); font-size: 0.7rem;">↕ SQLAlchemy ORM</div>
+            <div style="background: rgba(255,60,95,0.08); border: 1px solid rgba(255,60,95,0.2); border-radius: 8px; padding: 10px 16px; color: #ff8099;">
+              🗄️ PostgreSQL (Database)
+            </div>
+            <div style="text-align: center; color: var(--muted); font-size: 0.7rem;">↕ Docker Compose</div>
+            <div style="background: rgba(255,255,255,0.04); border: 1px solid var(--border); border-radius: 8px; padding: 10px 16px; color: var(--muted);">
+              🐧 Linux Server (VPS)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT 2 -->
+<section>
+  <div class="container">
+    <div class="section-label">Проект 2</div>
+    <h2 class="section-title">Buddy — программа<br/>поддержки студентов</h2>
+    <p class="section-desc">Куратор: Косарин С.П.</p>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          <strong>Цель проекта</strong> — цифровая платформа программы «Buddy»,
+          помогающая иностранным студентам адаптироваться в новой языковой среде
+          через взаимодействие с русскоязычными наставниками.
+        </p>
+        <p>
+          Платформа автоматизирует подбор пар «иностранный студент — наставник»,
+          предоставляет инструменты для общения, планирования встреч и отслеживания активности.
+        </p>
+        <p>
+          <strong>Задачи, выполненные командой:</strong> разработка компонентов React,
+          проектирование UI/UX интерфейса, реализация форм регистрации и профилей,
+          интеграция с бэкенд-сервисами через REST API.
+        </p>
+        <div class="tech-list" style="margin-top: 24px;">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">CSS Modules</span>
+          <span class="tech-tag">React Router</span>
+          <span class="tech-tag">Fetch API</span>
+          <span class="tech-tag">Git</span>
+          <span class="tech-tag">Figma</span>
+        </div>
+      </div>
+      <div>
+        <div class="about-stats">
+          <div class="stat-box">
+            <span class="num">UI</span>
+            <span class="label">Пользовательский интерфейс</span>
+          </div>
+          <div class="stat-box">
+            <span class="num">UX</span>
+            <span class="label">Опыт взаимодействия</span>
+          </div>
+          <div class="stat-box">
+            <span class="num">API</span>
+            <span class="label">Интеграция с сервером</span>
+          </div>
+          <div class="stat-box">
+            <span class="num">SPA</span>
+            <span class="label">Single Page App</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VARIANT PART -->
+<section style="background: var(--bg2);">
+  <div class="container">
+    <div class="section-label">Вариативная часть</div>
+    <h2 class="section-title">C Text Editor<br/>— Kilo</h2>
+    <p class="section-desc">
+      Реализация текстового редактора с нуля на языке C по проекту
+      <a href="https://viewsourcecode.org/snaptoken/kilo/" style="color: var(--accent2);" target="_blank">viewsourcecode.org/snaptoken/kilo</a>
+    </p>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-icon">📖</div>
+        <h3>Что такое Kilo?</h3>
+        <p>
+          Kilo — минималистичный текстовый редактор для терминала (~1000 строк кода на C),
+          работающий в raw-режиме. Проект обучает низкоуровневому программированию:
+          управлению терминалом, работе с файлами и обработке ввода.
+        </p>
+      </div>
+      <div class="project-card">
+        <div class="project-icon">🔧</div>
+        <h3>Что реализовано</h3>
+        <p>
+          Raw-режим терминала, перемещение курсора через escape-последовательности,
+          чтение и запись файлов, подсветка синтаксиса,
+          поиск по тексту, команды редактирования (вставка, удаление строк).
+        </p>
+        <div class="project-tags" style="margin-top: 16px;">
+          <span class="ptag">C99</span>
+          <span class="ptag">POSIX API</span>
+          <span class="ptag">VT100</span>
+          <span class="ptag">termios.h</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">251-335</div>
+  <p>Московский Политехнический Университет · Факультет информационных технологий · 2025–2026</p>
+</footer>
+
+</body>
+</html>
